@@ -20,11 +20,11 @@ public static class B extends A {
 }
     public static void main(String[] args) {
         // Task 3: Create an object of class B and call method meth of class A
-        B objB = new B();
+        B obj = new B();
 
         // Call the overridden method
-        objB.meth(); // Task 5: Call overridden method
-        B objB1 = new B();
-        objB1.meth();
+        obj.meth(); // Task 5: Call overridden method
+        B obj1 = new B();
+        obj1.meth();
     }
 }
