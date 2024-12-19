@@ -22,6 +22,6 @@ public class Main {
         B objB = new B();
 
         // Call the overridden method
-        System.out.println(objB.meth()); // Task 5: Call overridden method
+        objB.meth(); // Task 5: Call overridden method
     }
 }
